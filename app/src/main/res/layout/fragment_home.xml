@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeFragment">
+
+    <!-- Include Header Layout -->
+    <include
+        layout="@layout/header_lay" />
+
+    <!-- Scrollable Content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="0dp">
+
+            <!-- Section with Mandala Background -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mandla"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/banner"
+                    android:layout_width="match_parent"
+                    android:layout_height="247dp"
+                    android:contentDescription="@string/banner_desc"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/banner" />
+
+                <TextView
+                    android:id="@+id/home_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:gravity="center"
+                    android:text="Our History"
+                    android:textAppearance="@style/MenuText"
+                    android:textColor="@color/orange"
+                    android:textSize="40dp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="The Maharani Gayatri Devi Girls school, affectionately called M.G.D. was founded on 4th July, 1943, by Her Highness Maharani Gayatri Devi ji."
+                    android:textColor="@color/black"
+                    android:textSize="30dp"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+
+            <!-- Section with Blue Background -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/blue"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/principal"
+                    android:padding="30dp"
+                    android:layout_marginTop="16dp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Principal's Desk"
+                    android:textColor="#D00B0B"
+                    android:textSize="40dp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="A little girl enters the portals of MGD, hesitant, unsure, a bit awed by the large spaces, shy and awkward yet sweet and innocent and full of wonder..."
+                    android:textColor="@color/black"
+                    android:textSize="30dp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif-monospace"
+                    android:gravity="center"
+                    android:text="Mrs. Archana S Mankotia"
+                    android:textColor="#1B1818"
+                    android:textSize="30dp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text=" The aim of the institution is to make its pupils cultured and useful members of society. When they enter the world they should be able to take an active interest in the betterment of their homes and community and when they grow up, they should be able to fit themselves usefully into the world of tomorrow."
+                    android:textColor="@color/black"
+                    android:textSize="30dp"
+                    android:padding="20dp"
+                    android:justificationMode="inter_word"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/home_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:gravity="center"
+                    android:text="Maharani Gayatri Devi"
+                    android:textAppearance="@style/MenuText"
+                    android:textColor="@color/orange"
+                    android:textSize="40dp"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <!-- Footer -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/orange"
+        android:padding="16dp">
+
+        <!-- Logo half blue and orange -->
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/logo"
+            android:background="@drawable/half_blue_half_orange" />
+
+        <!-- Text Content -->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Sawai Ram Singh Road\nNear Ajmeri Gate, Jaipur, 302001 Rajasthan\nMobile No. 9116652632, 9116652634"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

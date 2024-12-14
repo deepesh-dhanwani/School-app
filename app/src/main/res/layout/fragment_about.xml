@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeFragment">
+
+    <!-- Include Header Layout -->
+    <include
+        layout="@layout/header_lay" />
+
+    <!-- Scrollable Content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="0dp">
+
+            <!-- Section with Mandala Background -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mandla"
+                android:orientation="vertical"
+                android:padding="0dp">
+
+                <ImageView
+                    android:id="@+id/banner"
+                    android:layout_width="match_parent"
+                    android:layout_height="247dp"
+                    android:contentDescription="@string/banner_desc"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/insidebanner" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:gravity="start"
+                    android:text="Profile"
+                    android:textAppearance="@style/MenuText"
+                    android:textColor="#FFEB3B"
+                    android:textSize="40dp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:padding="20dp"
+                    android:gravity="center"
+                    android:text="Maharani Gayatri Devi Girls’ School is a renowned educational institution was founded on 4th July 1943 by Her Highness Maharani Gayatri Devi . MGD, as it is affectionately called, the first public school in India for girls, today has a formidable reputation. Located in the heart of the city of Jaipur in Rajasthan, the school attracts pupils from all parts of the country and abroad. It is affiliated to the CBSE while also offering option of Cambridge International Examinations and has a strength of over 2400 Day Scholars and Day Boarders while almost 300 are residing on campus as Boarders. Day Boarding commences from class VI. Boarders are admitted from class I onwards who reside in five aesthetically adorned Boarding Houses for different age groups namely Lillian Hurst, Ashiana, Deepshikha, Maharani Indira Devi Bhawan and Rani Vidya Devi Bhawan. MGD Girls’ School is managed by the MGD Girls’ School Society which functions through a Board of Governors, headed by Maharaj Jai Singh ji of Jaipur. With its motto 'Our Utmost for the Highest', the school strives towards excellence in academic and co- curricular spheres of education, grooming young women to discover their potential and contribute to society as responsible citizens.
+
+"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:justificationMode="inter_word"
+                    android:background="@color/white"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+
+            <!-- Section with Blue Background -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/blue"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Principal 's  Speak"
+                    android:textColor="#01F20D"
+                    android:textSize="40dp"
+                    android:textStyle="bold|italic" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/principal"
+                    android:padding="30dp"
+                    android:layout_marginTop="16dp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:background="@color/white"
+                    android:text="Dear Girls
+Welcome to Maharani Gayatri Devi Girls’ school !
+
+A little girl enters the portals of MGD, hesitant, unsure, a bit awed by the large spaces, shy and awkward yet sweet and innocent and full of wonder….she hops, skips and jumps her way to find her class and among a sea of faces expectantly looks for her class teacher who alone appears as her redeemer.
+
+Little does she realize that this is a new beginning, oblivious of the beautiful journey ahead.
+
+Many years later, a smart young lady glides out of MGD gates, with an air of confidence, grace and self-assurance, well-groomed and well appointed, all set to take her place in the world and make a mark for herself."
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:padding="20dp"
+
+                    android:justificationMode="inter_word"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif-monospace"
+                    android:gravity="center"
+                    android:text="Mrs. Archana S Mankotia"
+                    android:textColor="#1B1818"
+                    android:textSize="30dp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text=" The aim of the institution is to make its pupils cultured and useful members of society. When they enter the world they should be able to take an active interest in the betterment of their homes and community and when they grow up, they should be able to fit themselves usefully into the world of tomorrow."
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:padding="20dp"
+                    android:background="@color/white"
+                    android:justificationMode="inter_word"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/home_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:gravity="center"
+                    android:text="Maharani Gayatri Devi"
+                    android:textAppearance="@style/MenuText"
+                    android:textColor="@color/orange"
+                    android:textSize="40dp"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <!-- Footer -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/orange"
+        android:padding="16dp">
+
+        <!-- Logo half blue and orange -->
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/logo"
+            android:background="@drawable/half_blue_half_orange" />
+
+        <!-- Text Content -->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Sawai Ram Singh Road\nNear Ajmeri Gate, Jaipur, 302001 Rajasthan\nMobile No. 9116652632, 9116652634"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

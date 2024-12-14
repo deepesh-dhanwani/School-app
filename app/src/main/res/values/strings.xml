@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Maharani Gayatri Devi School</string>
+
+    <string name="OpenDrawer">Open navigation drawer</string>
+    <string name="CloseDrawer">Close navigation drawer</string>
+
+    <string name="home" formatted="true">home</string>
+    <string name="about">about</string>
+    <string name="contact_us">contact</string>
+    <string name="getintouch">Gallery</string>
+    <string name="payment">payment</string>
+
+    <string name="head">Our Utmost for The Highest . Est 1943</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="homedetail">Our History</string>
+    <string name="homename">The Maharani Gayatri Devi Girls school, affectionately called M.G.D. was founded on 4th July, 1943, by Her Highness Maharani Gayatri Devi ji.</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="banner_desc">Banner image</string>
+    <string name="home_title">Welcome to the Home Page</string>
+    <string name="home_button_label">Click Me</string>
+    <!-- Contact Us Form -->
+    <string name="your_name">Jhone</string>
+    <string name="your_email">jhone@gmail.com</string>
+    <string name="your_mobileNumber">+91 6375200877</string>
+    <string name="your_message">Your Message</string>
+    <string name="submit">Submit</string>
+
+    <!-- New strings for contact info -->
+    <string name="contact_information">Contact Information</string>
+    <string name="contact_phone_number">Phone Number :  0422 - 2223466, 2221131, 0422 - 2221050</string>
+    <string name="contact_email_address">Email : info@vidhyaniketanschool.com</string>
+    <string name="contact_location_address">Location : 21/17-18, Puliakulam Road, P.N. Palayam, Coimbatore - 641 045. Tamil Nadu, India</string>
+
+    <string name="contact_list">Contact List</string>
+    <!-- Social Media -->
+    <string name="instagram">Instagram</string>
+    <string name="youtube">YouTube</string>
+    <string name="facebook">Facebook</string>
+    <string name="stay_in_touch">Stay in touch</string>
+    <string name="about_us">About Us</string>
+    <string name="aboutus_image">Aboutus image</string>
+    <string name="about_us_heading">Welcome to Vidhya Niketan</string>
+    <string name="about_us_paragraph">Vidhya Niketan Public School (VNPS) operates on the standards of best teaching practices, providing all children with the finest education experience in Coimbatore. It is a highly sought after destination for holistic education. We believe that our children have a natural inclination towards learning and we provide the best way to educate and tune them to achieve meaningful goals in their lives. We provide quality teaching supported by a spirited environment that encourages students to build confidence in their own abilities. Incepted in June 2011, the school was initiated to cater to the growing need of good quality and affordable CBSE curriculum in the city. Conceptualized and managed by the Founder, Correspondent and Secretary Mrs.Rajini Krishnamurthy; who has to her credit, a rich experience of personally managing Vidhya Niketan Matric Higher Secondary School for more than three decades.</string>
+    <string name="mission_statement_heading">Mission Statement.</string>
+    <string name="mission_statement">Our aim is to nurture each child holistically, by creating positive thinkers, by providing a safe and stimulating environment with an individualized, child- centered approach to education, thereby ensuring the best outcomes for all children, in line with the motto, “NO CHILD LEFT BEHIND.”</string>
+    <string name="our_vision">Our school provides a complete and unique educational experience for every child, preparing him / her for a successful life in the contemporary society. The vision envisages, academic excellence through value- based education, and child pedagogy in order to educate the children towards the fast emerging knowledge -based economy, demanding students with higher order thinking skills.</string>
+    <string name="our_vision_heading">Our Vision</string>
+    <string name="card_heading">Special Features of Vidhya Niketan School</string>
+    <string name="card_title">Title</string>
+    <string name="card_subtitle">SubTitle</string>
+
+</resources>
